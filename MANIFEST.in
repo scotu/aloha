@@ -1,0 +1,9 @@
+include CHANGELOG
+include INSTALL
+include LICENSE
+include MANIFEST.in
+include README
+include AUTHORS
+recursive-include aloha/bin *
+recursive-include aloha/locale *
+recursive-include aloha/templatetags *
