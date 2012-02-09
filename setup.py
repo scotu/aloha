@@ -23,11 +23,12 @@ for dirpath, dirnames, filenames in os.walk('aloha'):
             data_files.append(os.path.join(prefix, f))
 
 
-setup(name='django-aloha',
-      version='1.0.1',
+setup(name='aloha',
+      version='1.0.2',
       description='A Django template tag renders a "Hello" in different langauges',
       author='Andreas Aderhold',
-      url='http://github.com/aha/django-aloha/',
+      author_email='aderhold.andreas@gmail.com',
+      url='http://github.com/aha/aloha/',
       package_dir={'aloha': 'aloha'},
       packages=packages,
       package_data={'aloha': data_files},
