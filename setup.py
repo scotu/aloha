@@ -24,10 +24,10 @@ for dirpath, dirnames, filenames in os.walk('aloha'):
 
 
 setup(name='django-aloha',
-      version='1.0',
+      version='1.0.1',
       description='A Django template tag renders a "Hello" in different langauges',
       author='Andreas Aderhold',
-      url='http://github.com/aha/aloha/',
+      url='http://github.com/aha/django-aloha/',
       package_dir={'aloha': 'aloha'},
       packages=packages,
       package_data={'aloha': data_files},
